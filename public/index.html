@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Budget</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav>
@@ -22,8 +22,22 @@
     <div class="budget-container">
         <div>
             <h1>Budget</h1>
-            <input type="range" min="0" max="500" value="50" id="slider">
-            <input type="number" value="50" id="demo">
+            <input type="range" min="1" max="500" value="50" id="budget-slider"> <br/>
+            <input type="number" min="1" max="500" value="50" id="budget-money-amount">
+            <p>Money per day: <span id="budget-money-per-day"></span>€</p>
+        </div>
+    </div>
+
+    <div class="meal-options">
+        <div>
+            <p>
+                All ingredients: 10€  
+                Time to make: 30min
+                Meals for 1 person: 5
+                Per meal price: 2€
+            </p>
+            <button id="meal-add-button">+10€</button>
+            <img src="../images/pasta.jpg" alt="pasta" class="meal-images">
         </div>
     </div>
 </body>

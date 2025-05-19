@@ -7,6 +7,9 @@ h1 {
     margin: 0px;
     color: #ddd;
 }
+p {
+    color: #ddd;
+}
 
 /* NAVIGATION */
 nav {
@@ -38,4 +41,52 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#budget-slider {
+    width: 200px;
+}
+#budget-money-amount {
+    width: 200px;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    border: none;
+    text-align: center;
+}
+#demo:hover {
+    background-color: #049862;
+}
+
+
+/*MEALS*/
+.meal-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meal-images {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #04AA6D;
+}
+#meal-add-button {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+}
+#meal-add-button:hover {
+    background-color: #049862;
+    cursor: pointer;
 }
