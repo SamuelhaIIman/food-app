@@ -67,18 +67,103 @@ input[type=number] {
     background-color: #049862;
 }
 
+/* CALENDAR */
+.calendar-container {
+    display: flex;
+    justify-content: center;
+}
+.calendar {
+    width: 500px;
+    height: 450px;
+    background: #04AA6D;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #15202b;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+.calendar-body {
+    padding: 1rem;
+}
+.day-names, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    color: #FFFFFF;
+}
+.day-names div, .days div {
+    text-align: center;
+    padding: 0.5rem;
+}
+.day-names {
+    font-weight: bold;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 10px;
+}
+.days div {
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+.calendar-day-empty {
+    height: 50px;
+    width: 50px;
+    visibility: hidden;
+}
+.calendar-day {
+    height: 50px;
+    width: 60px;
+    background-color: #15202b;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+.calendar-day:hover {
+    background-color: #049862;
+    cursor: pointer;
+}
+.today {
+    background: #049862;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.nav-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-size: 50px;
+}
+.calendar-task {
+    width: 300px;
+    height: 150px;
+    background-color: red;
+
+}
 
 /*MEALS*/
 .meal-options {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
 }
 .meal-images {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     border: 5px solid #04AA6D;
+}
+.meal-description {
+    width: 220px;
 }
 #meal-add-button {
     background-color: #04AA6D;
@@ -89,4 +174,68 @@ input[type=number] {
 #meal-add-button:hover {
     background-color: #049862;
     cursor: pointer;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 270px;
+    background-color: #15202b;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.footer-box {
+    width: 260px;
+}
+#footer-navigation {
+    position: relative;
+    left: 80px;
+}
+.footer-links {
+    text-decoration: none;
+    font-size: 20px;
+    color: #888888;
+    display: block;
+    position: relative;
+    transition: color 0.5s;
+    width: 65px;
+    margin-top: 5px;
+}
+.footer-links:hover {
+    color: #04AA6D;
+}
+#footer-info {
+    color: #888888;
+}
+.footer-headline {
+    color: #ddd;
+    margin: 10px 0px 0px 0px;
+}
+.footer-contact {
+    color: #888888;
+    position: relative;
+}
+.footer-icon {
+    width: 50px;
+    margin: 10px;
+    position: relative;
+}
+.footer-icon-link {
+    text-decoration: none;
+}
+.footer-icon-text {
+    width: 25px;
+    color: #ddd;
+    position: relative;
+    top: 3px;
+}
+.copyright {
+    width: 100%;
+    height: 40px;
+    background-color: #121b25;
+    color: #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
