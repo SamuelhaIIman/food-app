@@ -9,6 +9,8 @@ h1 {
 }
 p {
     color: #ddd;
+    font-size: 24px;
+    margin: 0px;
 }
 
 /* NAVIGATION */
@@ -55,12 +57,16 @@ input[type=number] {
 #budget-slider {
     width: 200px;
 }
+#budget-money-per-day {
+    font-size: 28px;
+    color: #04AA6D;
+}
 #budget-money-amount {
-    width: 200px;
-    font-size: 24px;
-    border-radius: 5px;
     background-color: #04AA6D;
-    border: none;
+    border-radius: 5px;
+    width: 200px;
+    color: black;
+    font-size: 28px;
     text-align: center;
 }
 #demo:hover {
@@ -145,7 +151,6 @@ input[type=number] {
     width: 300px;
     height: 150px;
     background-color: red;
-
 }
 
 /*MEALS*/
@@ -174,6 +179,13 @@ input[type=number] {
 #meal-add-button:hover {
     background-color: #049862;
     cursor: pointer;
+}
+
+/* MEALS */
+.ingredients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */

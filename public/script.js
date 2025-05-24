@@ -12,56 +12,67 @@ const calendarUI = {
 let date = new Date();
 
 budgetUI.slider.addEventListener("input", () => {
-    budgetUI.output.value = budgetUI.slider.value;
-    if(budgetUI.output.value > 500 ) {
-        budgetUI.output.value = 500;
-    }
-    
-    let budgetDayCalculation = budgetUI.output.value / 30;
-    budgetUI.budget.innerHTML = budgetDayCalculation.toFixed(2);
+  let budgetDayCalculation = budgetUI.slider.value / 7;
+  budgetUI.output.innerHTML = budgetUI.slider.value + "€";
+  budgetUI.budget.innerHTML = budgetDayCalculation.toFixed(2);
 });
 
 function renderCalendar() {
-    date.setDate(1);
-    const month = date.getMonth();
-    const year = date.getFullYear();
+  date.setDate(1);
+  const month = date.getMonth();
+  const year = date.getFullYear();
 
-    const firstDayIndex = date.getDay();
-    const lastDay = new Date(year, month + 1, 0).getDate();
+  const firstDayIndex = date.getDay();
+  const lastDay = new Date(year, month + 1, 0).getDate();
 
-    calendarUI.monthYear.innerText = `${date.toLocaleString('default', { month: 'long' })} ${year}`;
-    calendarUI.daysContainer.innerHTML = '';
+  calendarUI.monthYear.innerText = `${date.toLocaleString('default', { month: 'long' })} ${year}`;
+  calendarUI.daysContainer.innerHTML = '';
 
-    for (let i = 0; i < firstDayIndex; i++) {
-      const emptyCell = document.createElement('button');
-      calendarUI.daysContainer.appendChild(emptyCell);
-      emptyCell.classList.add('calendar-day-empty');
-    }
-
-    for (let i = 1; i <= lastDay; i++) {
-      const dayCell = document.createElement('button');
-      dayCell.textContent = i;
-      dayCell.classList.add('calendar-day');
-      if (
-        i === new Date().getDate() &&
-        month === new Date().getMonth() &&
-        year === new Date().getFullYear()
-      ) {
-        dayCell.classList.add('today');
-      }
-
-      calendarUI.daysContainer.appendChild(dayCell);
-    }
+  for (let i = 0; i < firstDayIndex; i++) {
+    const emptyCell = document.createElement('button');
+    calendarUI.daysContainer.appendChild(emptyCell);
+    emptyCell.classList.add('calendar-day-empty');
   }
 
-  calendarUI.prevBtn.addEventListener('click', () => {
-    date.setMonth(date.getMonth() - 1);
-    renderCalendar();
-  });
+  for (let i = 1; i <= lastDay; i++) {
+    const dayCell = document.createElement('button');
+    dayCell.textContent = i;
+    dayCell.classList.add('calendar-day');
+    if (
+      i === new Date().getDate() &&
+      month === new Date().getMonth() &&
+      year === new Date().getFullYear()
+    ) {
+      dayCell.classList.add('today');
+    }
 
-  calendarUI.nextBtn.addEventListener('click', () => {
-    date.setMonth(date.getMonth() + 1);
-    renderCalendar();
-  });
+    calendarUI.daysContainer.appendChild(dayCell);
+  }
+}
 
+calendarUI.prevBtn.addEventListener('click', () => {
+  date.setMonth(date.getMonth() - 1);
   renderCalendar();
+});
+
+calendarUI.nextBtn.addEventListener('click', () => {
+  date.setMonth(date.getMonth() + 1);
+  renderCalendar();
+});
+
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); 
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+
+renderCalendar();
