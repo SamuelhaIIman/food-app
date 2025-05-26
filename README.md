@@ -11,8 +11,16 @@ saving money and budgeting my own life.
 
 ## Requirements
 
+1. First clone the repository
 ```bash
 git clone
 ```
+2. Second install dependencies
+```bash
+npm install axios cheerio
+```
 
-This program has no requirements yet!
+## Features
+- Web scarping the information from s-market website
+- Calculating budgets for people
+- User friendly UI

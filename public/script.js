@@ -60,19 +60,25 @@ calendarUI.nextBtn.addEventListener('click', () => {
   renderCalendar();
 });
 
-function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("myInput");
+fetch("https://www.s-kaupat.fi/tuote/kotimaista-sika-nauta-jauheliha-23-400-g/6414893500075").then(res => {
+  return res.json();
+}).then(data => {
+  console.log(data);
+}).catch(error => console.log(error));
 
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); 
+// function myFunction() {
+//   // Get the text field
+//   var copyText = document.getElementById("myInput");
 
-  // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
+//   // Select the text field
+//   copyText.select();
+//   copyText.setSelectionRange(0, 99999); 
+
+//   // Copy the text inside the text field
+//   navigator.clipboard.writeText(copyText.value);
   
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
-}
+//   // Alert the copied text
+//   alert("Copied the text: " + copyText.value);
+// }
 
 renderCalendar();
