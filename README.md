@@ -9,6 +9,14 @@ saving money and budgeting my own life.
 
 ---
 
+## Technologies Used
+- Node.js
+- MySQL
+- axios cheerio mysql2 express ejs dotenv packages
+- JavaScript
+
+---
+
 ## Requirements
 
 1. First clone the repository
@@ -17,10 +25,11 @@ git clone
 ```
 2. Second install dependencies
 ```bash
-npm install axios cheerio
+npm install axios cheerio mysql2 express ejs dotenv
 ```
 
 ## Features
 - Web scarping the information from s-market website
 - Calculating budgets for people
 - User friendly UI
+- Database for storing the data
