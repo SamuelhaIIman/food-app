@@ -187,6 +187,12 @@ input[type=number] {
     justify-content: center;
     align-items: center;
 }
+.ingredients-listing {
+    width: 100px;
+    height: 200px;
+    background-color: #04AA6D;
+    border-radius: 10px;
+}
 
 /* Footer */
 footer {
