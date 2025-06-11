@@ -1,19 +1,21 @@
-# food-app
+# Food App
 
 ## About
 
-This project's aim is to create a budgeting program for food in Finland grocery store. 
-My aim is to launch this program in a website first. Which is easier for new users to 
-use and it takes less of the consumer. This project was started for the passion of 
-saving money and budgeting my own life. 
+This project is a budgeting tool focused on grocery shopping in Finland, specifically for stores like S-Market. The goal is to launch it as a website, making it more accessible and convenient for users who want to save money and track their food expenses. It began as a personal project to improve my own budgeting habits.
 
 ---
 
 ## Technologies Used
-- Node.js
-- MySQL
-- axios cheerio mysql2 express ejs dotenv packages
-- JavaScript
+
+- **Node.js**
+- **Express**
+- **EJS**
+- **MySQL**
+- **Axios**
+- **Cheerio**
+- **Dotenv**
+- **JavaScript**
 
 ---
 
