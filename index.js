@@ -42,12 +42,12 @@ async function getAllPrices() {
         if (fs.existsSync(filePath)) {
             fs.writeFile(filePath, JSON.stringify(meatPrices) + "\n", (err) => {
                 if (err) throw err;
-                console.log("File found!");
+                console.log("File found and updated!");
             });
         } else {
             fs.appendFile(filePath, JSON.stringify(meatPrices) + "\n", (err) => {
                 if (err) throw err;
-                console.log("Saved!");
+                console.log("Text added and saved!");
             });
         }
         //console.log(meatPrices);
