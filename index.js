@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
-const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1";
+const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1/nauta";
 
 
 async function getPrice() {
@@ -30,12 +30,14 @@ async function getAllPrices() {
         });
         const $ = cheerio.load(response.data);
 
-        const prices = $('[data-test-id="display-price"]');
+        const products = $('[data-test-id="product-card"]');
 
-        prices.each(function () {
-            const cost = $(this).text().trim();
-            if (cost.includes("€")) {
-                meatPrices.push({ cost });
+        products.each(function () {
+            const name = $(this).find('[data-test-id="product-card__productName"]').text().trim();
+            const cost = $(this).find('[data-test-id="display-price"]').text().trim();
+
+            if (name && cost) {
+                meatPrices.push({ name, cost });
             }
         });
 
@@ -50,7 +52,6 @@ async function getAllPrices() {
                 console.log("Text added and saved!");
             });
         }
-        //console.log(meatPrices);
 
     } catch (error) {
         console.error("Error fetching prices:", error);
