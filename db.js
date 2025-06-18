@@ -61,7 +61,7 @@ con.connect((err) => {
 
         con.query(insertQuery, values, (err) => {
           if(err) throw err;
-          console.log(`Inserted prices: ${item.cost}`);
+          console.log(`Inserted prices: ${item.cost} & names: ${item.name}`);
         })
       });
     })

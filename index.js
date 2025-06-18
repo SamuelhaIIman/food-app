@@ -1,6 +1,8 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
+import express from 'express';
+import path from 'path';
 
 const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1/nauta";
 
@@ -57,5 +59,16 @@ async function getAllPrices() {
         console.error("Error fetching prices:", error);
     }
 }
+
+const app = express();
+
+app.set("view engine", "ejs");
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(path.join(__dirname, 'public')));
+
+const PORT = 4000;
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
 
 getAllPrices();
