@@ -57,7 +57,7 @@ con.connect((err) => {
           INSERT INTO products (ProductCategory, ProductName, ProductPrice)
           VALUES (?, ?, ?)
         `
-        const values = ["Liha", item.name, item.cost];
+        const values = ["1", item.name, item.cost];
 
         con.query(insertQuery, values, (err) => {
           if(err) throw err;

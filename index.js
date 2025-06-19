@@ -1,8 +1,8 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
-import express from 'express';
-import path from 'path';
+const express = require("express");
+const path = require("path")
 
 const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1/nauta";
 
@@ -63,8 +63,10 @@ async function getAllPrices() {
 const app = express();
 
 app.set("view engine", "ejs");
-app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/', (req, res) => {
+    res.render('home');
+});
 
 const PORT = 4000;
 app.listen(PORT, () => {
