@@ -1,1 +1,98 @@
-[{"name":"Kotimaista naudan minuuttisuikale 300g","cost":"5,29 €"},{"name":"Snellman Naudan lehtipihvi ulkofileestä 2 kpl 240g","cost":"8,79 €"},{"name":"Kotimaista Karjalanpaisti 600 g","cost":"6,90 €"},{"name":"Tamminen naudan flank steak n500g","cost":"12,45 €"},{"name":"Kotimaista Naudan paahtopaistipala n1kg","cost":"17,95 €"},{"name":"Tamminen naudan Petite Tender n300g","cost":"8,67 €"},{"name":"Snellman Petite tender n380g","cost":"10,98 €"},{"name":"Tamminen naudan flat iron steak n450g","cost":"11,21 €"},{"name":"Atria Naudan Palapaisti 400g","cost":"7,69 €"},{"name":"Tamminen naudan Denver steak n700g","cost":"16,03 €"},{"name":"Atria Takuumurea Naudan Entrecote n300g","cost":"11,07 €"},{"name":"Kotimaista naudan keittolihakuutio 500 g","cost":"8,39 €"},{"name":"Atria Naudan Lehtipihvi ja maustevoit 270g","cost":"14,59 €"},{"name":"Snellman Naudan mureutettu ulkofileepihvi 2 kpl 240 g","cost":"10,29 €"},{"name":"Atria Naudan Pippuripihvi Takuumureasta Paahtopaistista 280g","cost":"8,75 €"},{"name":"Snellman Naudan entrecote 2 kpl 400 g","cost":"13,99 €"},{"name":"Lihakulttuuri sirloin steak/naudan grillipihvi n. 300 g","cost":"11,04 €"},{"name":"Tamminen naudan keittoliha makuluulla n700g","cost":"13,23 €"},{"name":"Tamminen naudan Picanha n700g","cost":"16,03 €"},{"name":"HK Naudan murea Grillipihvi ulkofileestä 360g","cost":"9,90 €"},{"name":"Coop Naudan grillipihvi pippurinen 300g","cost":"6,99 €"},{"name":"Tamminen naudan Fillet Cap Steak n450g","cost":"15,28 €"},{"name":"Tamminen naudan entrecotepalan 1kg","cost":"30,90 €"},{"name":"Atria Takuumurea Naudan Ulkofilee n800g","cost":"19,12 €"}]
+[
+  {
+    "name": "Tamminen naudan flank steak n500g",
+    "cost": "12,45 €"
+  },
+  {
+    "name": "Kotimaista naudan minuuttisuikale 300g",
+    "cost": "5,29 €"
+  },
+  {
+    "name": "Snellman Naudan lehtipihvi ulkofileestä 2 kpl 240g",
+    "cost": "8,79 €"
+  },
+  {
+    "name": "Kotimaista Karjalanpaisti 600 g",
+    "cost": "6,90 €"
+  },
+  {
+    "name": "Kotimaista Naudan paahtopaistipala n1kg",
+    "cost": "17,95 €"
+  },
+  {
+    "name": "Tamminen naudan flat iron steak n450g",
+    "cost": "11,21 €"
+  },
+  {
+    "name": "Snellman Petite tender n380g",
+    "cost": "10,98 €"
+  },
+  {
+    "name": "Tamminen naudan Petite Tender n300g",
+    "cost": "8,67 €"
+  },
+  {
+    "name": "Tamminen naudan Denver steak n700g",
+    "cost": "16,03 €"
+  },
+  {
+    "name": "Atria Takuumurea Naudan Entrecote n300g",
+    "cost": "11,07 €"
+  },
+  {
+    "name": "Atria Naudan Palapaisti 400g",
+    "cost": "7,69 €"
+  },
+  {
+    "name": "Snellman Naudan mureutettu ulkofileepihvi 2 kpl 240 g",
+    "cost": "10,29 €"
+  },
+  {
+    "name": "Atria Takuumurea Naudan Ulkofilee n800g",
+    "cost": "19,12 €"
+  },
+  {
+    "name": "Atria Naudan Pippuripihvi Takuumureasta Paahtopaistista 280g",
+    "cost": "8,75 €"
+  },
+  {
+    "name": "Tamminen naudan Picanha n700g",
+    "cost": "16,03 €"
+  },
+  {
+    "name": "Atria Naudan Lehtipihvi ja maustevoit 270g",
+    "cost": "14,59 €"
+  },
+  {
+    "name": "Kotimaista naudan keittolihakuutio 500 g",
+    "cost": "8,39 €"
+  },
+  {
+    "name": "Snellman Naudan entrecote 2 kpl 400 g",
+    "cost": "13,99 €"
+  },
+  {
+    "name": "HK Naudan murea Grillipihvi ulkofileestä 360g",
+    "cost": "9,90 €"
+  },
+  {
+    "name": "Snellman Naudan entrecoté pihvifilee n1kg",
+    "cost": "23,90 €"
+  },
+  {
+    "name": "Tamminen naudan entrecotepalan 1kg",
+    "cost": "30,90 €"
+  },
+  {
+    "name": "Lihakulttuuri sirloin steak/naudan grillipihvi n. 300 g",
+    "cost": "11,04 €"
+  },
+  {
+    "name": "Tamminen naudan keittoliha makuluulla n700g",
+    "cost": "13,23 €"
+  },
+  {
+    "name": "Coop Naudan grillipihvi pippurinen 300g",
+    "cost": "6,99 €"
+  }
+]

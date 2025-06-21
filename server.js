@@ -12,9 +12,6 @@ async function getPrice() {
         const response = await fetch(url);
         const data = await response.text();
         const $ = cheerio.load(data);
-        
-        const price = $("h1").text()
-        console.log(price);
     } catch (error) {
         console.error(error)
     }
@@ -44,12 +41,12 @@ async function getAllPrices() {
         });
 
         if (fs.existsSync(filePath)) {
-            fs.writeFile(filePath, JSON.stringify(meatPrices) + "\n", (err) => {
+            fs.writeFile(filePath, JSON.stringify(meatPrices, null, 2) + "\n", (err) => {
                 if (err) throw err;
                 console.log("File found and updated!");
             });
         } else {
-            fs.appendFile(filePath, JSON.stringify(meatPrices) + "\n", (err) => {
+            fs.appendFile(filePath, JSON.stringify(meatPrices, null, 2) + "\n", (err) => {
                 if (err) throw err;
                 console.log("Text added and saved!");
             });
@@ -60,17 +57,18 @@ async function getAllPrices() {
     }
 }
 
+getAllPrices(); // Check if wrong placement in the future!!!
+
 const app = express();
 
 app.set("view engine", "ejs");
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get('/', (req, res) => {
-    res.render('home');
+    res.render('home', {});
 });
 
 const PORT = 4000;
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
-
-getAllPrices();
