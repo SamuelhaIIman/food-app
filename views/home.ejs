@@ -90,9 +90,9 @@
         </a>
         <ul class="ingredients-listing">
           <button>copy</button>
-          <li>meat</li>
-          <li>meat</li>
-          <li>meat</li>
+          <% products.forEach(p => { %>
+            <li><%= p.ProductName %> — <%= p.ProductPrice %></li>
+          <% }) %>
         </ul>
       </div>
     </div>
