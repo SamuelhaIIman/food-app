@@ -2,7 +2,23 @@ import axios from "axios";
 import cheerio from "cheerio";
 import con from "./db.js";
 
-const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1/nauta";
+//const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1/nauta";
+async function getAllCategoryUrls() {
+    const response = await axios.get("https://www.s-kaupat.fi");
+    const $ = cheerio.load(response.data);
+    const categoryName = $('class="menu-item--name"')
+
+    const categoryLinks = [];
+
+    $("a.category-link").each((i, el) => {
+        const url = $(el).attr("href");
+        if (url) {
+        categoryLinks.push(`https://www.s-kaupat.fi${url}`);
+        }
+    });
+
+    return categoryLinks;
+}
 
 async function getAllPrices() {
     try {
