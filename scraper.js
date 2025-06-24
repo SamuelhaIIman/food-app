@@ -32,7 +32,7 @@ async function getAllPrices() {
             const products = $('[data-test-id="product-card"]');
             const meatPrices = [];
 
-            products.each(function () {
+            products.each(() => {
             const name = $(this).find('[data-test-id="product-card__productName"]').text().trim();
             const cost = $(this).find('[data-test-id="display-price"]').text().trim();
 

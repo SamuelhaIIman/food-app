@@ -180,6 +180,9 @@ input[type=number] {
     background-color: #049862;
     cursor: pointer;
 }
+#ingredients-copy {
+    width: 50px;
+}
 
 /* MEALS */
 .ingredients-list {
