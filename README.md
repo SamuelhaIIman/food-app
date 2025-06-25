@@ -69,12 +69,6 @@ DB_NAME=your_database_name
 
 ---
 
-## 💡 Contributing
-
-Pull requests are welcome! If you have suggestions for improvements or want to add features, feel free to open an issue or submit a PR.
-
----
-
 ## 📄 License
 
 This project is currently personal and in early development. Licensing details will be added once it's closer to a public release.
