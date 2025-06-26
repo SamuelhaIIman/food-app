@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <div class="calendar-container">
+    <!-- <div class="calendar-container">
       <div class="calendar">
         <div class="calendar-header">
           <button class="nav-btn" id="prev">&#8249;</button>
@@ -50,7 +50,7 @@
           <div class="days" id="calendar-days"></div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="meal-options">
       <button id="meal-add-button">+10€</button>
@@ -85,13 +85,13 @@
 
     <div class="ingredients-list">
       <div>
-        <a href="">
-          <img src="../images/copy.png" alt="copy" id="ingredients-copy" />
-        </a>
         <ul class="ingredients-listing">
-          <button>copy</button>
+          <a href="">
+            <img src="../images/copy.png" alt="copy" id="ingredients-copy" />
+          </a>
           <% products.forEach(p => { %>
-            <li><%= p.ProductName %> — <%= p.ProductPrice %></li>
+            <li><%= p.ProductName %></li>
+            <p><%= p.ProductPrice %></p>
           <% }) %>
         </ul>
       </div>
