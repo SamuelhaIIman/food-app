@@ -2,23 +2,23 @@
 
 ## 📌 About
 
-**Food App** is a smart budgeting tool designed to help people in Finland plan and track their grocery expenses more efficiently — focusing on stores like **S-Market**.  
-It started as a personal project to improve my own budgeting habits and is now evolving into a user-friendly website to help others save money and make informed shopping decisions.
+**Food App** is a budgeting tool designed to help people in Finland give ideas and compare prices. 
+This is a personal project to improve my own budgeting habits and is now evolving into a user-friendly website to help others save money and make informed shopping decisions.
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| **Node.js** | Backend runtime |
-| **Express** | Web server framework |
-| **EJS** | Templating for dynamic pages |
-| **MySQL** | Relational database for storing product data & prices |
-| **Axios** | HTTP client for fetching web pages |
-| **Cheerio** | Web scraping & HTML parsing |
-| **Dotenv** | Environment variable management |
-| **JavaScript** | Main programming language |
+### Technology 
+
+**Node.js**
+**Express**
+**EJS**
+**MySQL**
+**Axios**
+**Cheerio**
+**Dotenv**
+**JavaScript**
 
 ---
 
@@ -27,14 +27,14 @@ It started as a personal project to improve my own budgeting habits and is now e
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/SamuelhaIIman/food-app.git
 cd food-app
 ```
 
 ### 2️⃣ Install dependencies
 
 ```bash
-npm install
+npm install axios cheerio dotenv ejs express mysql2
 ```
 
 ### 3️⃣ Configure environment variables
