@@ -2,7 +2,7 @@ import axios from "axios";
 import cheerio from "cheerio";
 import con from "./db.js";
 
-//const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1/nauta";
+const url = "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1/nauta";
 async function getAllCategoryUrls() {
     const response = await axios.get("https://www.s-kaupat.fi");
     const $ = cheerio.load(response.data);
@@ -46,7 +46,7 @@ async function getAllPrices() {
         const createTableQuery = `
         CREATE TABLE IF NOT EXISTS products (
             Itemid INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-            ProductCategory VARCHAR(255) NOT NULL,
+            ProductCategory INT NOT NULL,
             ProductName VARCHAR(255) NOT NULL,
             ProductPrice VARCHAR(255) NOT NULL
             );
