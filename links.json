@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Alkoholi- ja virvoitusjuomat",
+    "slug": "alkoholi-ja-virvoitusjuomat",
+    "url": "https://www.s-kaupat.fi/tuotteet/alkoholi-ja-virvoitusjuomat"
+  },
+  {
+    "name": "Hedelmät ja vihannekset",
+    "slug": "hedelmat-ja-vihannekset-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/hedelmat-ja-vihannekset-1"
+  },
+  {
+    "name": "Hillot ja säilykkeet",
+    "slug": "hillot-ja-sailykkeet",
+    "url": "https://www.s-kaupat.fi/tuotteet/hillot-ja-sailykkeet"
+  },
+  {
+    "name": "Juustot ja tofut",
+    "slug": "juustot-tofut-ja-kasvipohjaiset",
+    "url": "https://www.s-kaupat.fi/tuotteet/juustot-tofut-ja-kasvipohjaiset"
+  },
+  {
+    "name": "Kahvit, teet ja mehut",
+    "slug": "kahvit-teet-ja-mehut",
+    "url": "https://www.s-kaupat.fi/tuotteet/kahvit-teet-ja-mehut"
+  },
+  {
+    "name": "Kala ja merenelävät",
+    "slug": "kala-ja-merenelavat-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/kala-ja-merenelavat-1"
+  },
+  {
+    "name": "Karkit ja suklaat",
+    "slug": "karkit-ja-suklaat",
+    "url": "https://www.s-kaupat.fi/tuotteet/karkit-ja-suklaat"
+  },
+  {
+    "name": "Kasvipohjaiset ja lihattomat tuotteet",
+    "slug": "kasvipohjaiset-tuotteet",
+    "url": "https://www.s-kaupat.fi/tuotteet/kasvipohjaiset-tuotteet"
+  },
+  {
+    "name": "Keittiö, kattaus ja grillaus",
+    "slug": "keittio-ja-kattaus",
+    "url": "https://www.s-kaupat.fi/tuotteet/keittio-ja-kattaus"
+  },
+  {
+    "name": "Kodinhoito ja taloustarvikkeet",
+    "slug": "kodinhoito-ja-taloustarvikkeet",
+    "url": "https://www.s-kaupat.fi/tuotteet/kodinhoito-ja-taloustarvikkeet"
+  },
+  {
+    "name": "Kosmetiikka ja hygienia",
+    "slug": "kosmetiikka-ja-hygienia",
+    "url": "https://www.s-kaupat.fi/tuotteet/kosmetiikka-ja-hygienia"
+  },
+  {
+    "name": "Kukat ja koti",
+    "slug": "kukat-ja-koti",
+    "url": "https://www.s-kaupat.fi/tuotteet/kukat-ja-koti"
+  },
+  {
+    "name": "Kuivatuotteet ja leivonta",
+    "slug": "kuivatuotteet-ja-leivonta-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/kuivatuotteet-ja-leivonta-1"
+  },
+  {
+    "name": "Lastenruoat, vaipat ja hoitotarvikkeet",
+    "slug": "lapset-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/lapset-1"
+  },
+  {
+    "name": "Leivät, keksit ja leivonnaiset",
+    "slug": "leivat-keksit-ja-leivonnaiset-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/leivat-keksit-ja-leivonnaiset-1"
+  },
+  {
+    "name": "Lemmikkien ruoat ja tarvikkeet",
+    "slug": "lemmikit-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/lemmikit-1"
+  },
+  {
+    "name": "Liha ja kasviproteiinit",
+    "slug": "liha-ja-kasviproteiinit-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/liha-ja-kasviproteiinit-1"
+  },
+  {
+    "name": "Maito, munat ja rasvat",
+    "slug": "maito-munat-ja-rasvat-0",
+    "url": "https://www.s-kaupat.fi/tuotteet/maito-munat-ja-rasvat-0"
+  },
+  {
+    "name": "Öljyt, maustaminen ja kastikkeet",
+    "slug": "oljyt-maustaminen-ja-kastikkeet",
+    "url": "https://www.s-kaupat.fi/tuotteet/oljyt-maustaminen-ja-kastikkeet"
+  },
+  {
+    "name": "Pakasteet",
+    "slug": "pakasteet-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/pakasteet-1"
+  },
+  {
+    "name": "Pastat, riisit ja nuudelit",
+    "slug": "pastat-riisit-ja-nuudelit",
+    "url": "https://www.s-kaupat.fi/tuotteet/pastat-riisit-ja-nuudelit"
+  },
+  {
+    "name": "Ruokatori",
+    "slug": "ruokatori",
+    "url": "https://www.s-kaupat.fi/tuotteet/ruokatori"
+  },
+  {
+    "name": "Snacksit",
+    "slug": "snacksit",
+    "url": "https://www.s-kaupat.fi/tuotteet/snacksit"
+  },
+  {
+    "name": "Texmex ja maailman makuja",
+    "slug": "texmex-ja-maailman-makuja",
+    "url": "https://www.s-kaupat.fi/tuotteet/texmex-ja-maailman-makuja"
+  },
+  {
+    "name": "Urheiluravinteet, terveys ja itsehoito",
+    "slug": "urheiluravinteet-terveys-ja-itsehoito",
+    "url": "https://www.s-kaupat.fi/tuotteet/urheiluravinteet-terveys-ja-itsehoito"
+  },
+  {
+    "name": "Valmisruoka",
+    "slug": "valmisruoka-1",
+    "url": "https://www.s-kaupat.fi/tuotteet/valmisruoka-1"
+  },
+  {
+    "name": "Vapaa-aika",
+    "slug": "vapaa-aika",
+    "url": "https://www.s-kaupat.fi/tuotteet/vapaa-aika"
+  }
+]
