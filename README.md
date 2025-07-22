@@ -1,13 +1,13 @@
-# 🛒 Food App — Grocery Budgeting Tool for Finland
+# Food App — Grocery Budgeting Tool for Finland
 
-## 📌 About
+## About
 
 **Food App** is a budgeting tool designed to help people in Finland give ideas and compare prices. 
 This is a personal project to improve my own budgeting habits and is now evolving into a user-friendly website to help others save money and make informed shopping decisions.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 ### Technology 
 
@@ -22,22 +22,22 @@ This is a personal project to improve my own budgeting habits and is now evolvin
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/SamuelhaIIman/food-app.git
 cd food-app
 ```
 
-### 2️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 npm install axios cheerio dotenv ejs express mysql2
 ```
 
-### 3️⃣ Configure environment variables
+### Configure environment variables
 
 Create a ``.env`` file in the root directory and add your database credentials:
 
@@ -50,32 +50,32 @@ DB_NAME=your_database_name
 
 ---
 
-## ✅ Features
+## Features
 
-- 🔍 **Web scraping:** Automatically fetches product names and prices from the S-Market website.
-- 📊 **Budget calculation:** Helps users plan and track grocery expenses.
-- 🗂️ **Database storage:** Saves historical product prices for analysis and comparison.
-- 🖥️ **User-friendly web interface:** Simple UI to view products, prices, and budgets.
-
----
-
-## 📌 Planned Improvements
-
-- 🏷️ Filter products by category and store.
-- 📈 Track price changes over time.
-- 📅 Weekly budget reports and spending summaries.
-- 🔐 User accounts for personalized budgets.
-- ☁️ Deploy to production with a secure cloud database.
+- **Web scraping:** Automatically fetches product names and prices from the S-Market website.
+- **Budget calculation:** Helps users plan and track grocery expenses.
+- **Database storage:** Saves historical product prices for analysis and comparison.
+- **User-friendly web interface:** Simple UI to view products, prices, and budgets.
 
 ---
 
-## 📄 License
+## Planned Improvements
+
+- Filter products by category and store.
+- Track price changes over time.
+- Weekly budget reports and spending summaries.
+- User accounts for personalized budgets.
+- Deploy to production with a secure cloud database.
+
+---
+
+## License
 
 This project is currently personal and in early development. Licensing details will be added once it's closer to a public release.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - Node.js
 - Express
@@ -85,7 +85,7 @@ This project is currently personal and in early development. Licensing details w
 
 ---
 
-**Happy budgeting & smart shopping! 🛍️💰**
+**Happy budgeting & smart shopping!**
 
 ---
 
