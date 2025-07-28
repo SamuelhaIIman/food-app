@@ -83,9 +83,3 @@ This project is currently personal and in early development. Licensing details w
 - Axios
 - MySQL
 
----
-
-**Happy budgeting & smart shopping!**
-
----
-
