@@ -1,4 +1,4 @@
-# Food App — Grocery Budgeting Tool for Finland
+# Food App
 
 ## About
 
