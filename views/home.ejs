@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF_8" />
+    <meta name="viewport" content="width=device_width, initial_scale=1.0" />
     <title>Food Budget</title>
     <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
@@ -10,7 +10,7 @@
   
   <body>
     <nav>
-      <h1 class="navigation-heading">Food App</h1>
+      <h1 class="navigation_heading">Food App</h1>
       <div>
         <a href="#home" class="navigation">Home</a>
         <a href="" class="navigation">Budget</a>
@@ -20,62 +20,41 @@
       </div>
     </nav>
 
-    <div class="budget-container">
+    <div class="budget_container">
       <div>
         <h1>Budget</h1>
-        <input type="range" min="1" max="500" value="50" id="budget-slider" />
+        <input type="range" min="1" max="500" value="50" id="budget_slider" />
         <br />
-        <p id="budget-money-amount">€</p>
-        <p>Money per day: <span id="budget-money-per-day"></span>€</p>
+        <p id="budget_money_amount">€</p>
+        <p>Money per day: <span id="budget_money_per_day"></span>€</p>
       </div>
     </div>
 
-    <!-- <div class="calendar-container">
-      <div class="calendar">
-        <div class="calendar-header">
-          <button class="nav-btn" id="prev">&#8249;</button>
-          <h2 id="month-year"></h2>
-          <button class="nav-btn" id="next">&#8250;</button>
-        </div>
-        <div class="calendar-body">
-          <div class="day-names">
-            <div>Mon</div>
-            <div>Tue</div>
-            <div>Wed</div>
-            <div>Thu</div>
-            <div>Fri</div>
-            <div>Sat</div>
-            <div>Sun</div>
-          </div>
-          <div class="days" id="calendar-days"></div>
-        </div>
-      </div>
-    </div> -->
 
-    <div class="meal-options">
-      <button id="meal-add-button">+10€</button>
-      <img src="../images/pasta.jpg" alt="pasta" class="meal-images" />
-      <p class="meal-description">
+    <div class="meal_options">
+      <button id="meal_add_button">+10€</button>
+      <img src="../images/pasta.jpg" alt="pasta" class="meal_images" />
+      <p class="meal_description">
         All ingredients: 10€ <br />
         Time to make: 30min <br />
         Meals for 1 person: 5 <br />
         Per meal price: 2€
       </p>
     </div>
-    <div class="meal-options">
-      <button id="meal-add-button">+10€</button>
-      <img src="../images/pasta.jpg" alt="pasta" class="meal-images" />
-      <p class="meal-description">
+    <div class="meal_options">
+      <button id="meal_add_button">+10€</button>
+      <img src="../images/pasta.jpg" alt="pasta" class="meal_images" />
+      <p class="meal_description">
         All ingredients: 10€ <br />
         Time to make: 30min <br />
         Meals for 1 person: 5 <br />
         Per meal price: 2€
       </p>
     </div>
-    <div class="meal-options">
-      <button id="meal-add-button">+10€</button>
-      <img src="../images/pasta.jpg" alt="pasta" class="meal-images" />
-      <p class="meal-description">
+    <div class="meal_options">
+      <button id="meal_add_button">+10€</button>
+      <img src="../images/pasta.jpg" alt="pasta" class="meal_images" />
+      <p class="meal_description">
         All ingredients: 10€ <br />
         Time to make: 30min <br />
         Meals for 1 person: 5 <br />
@@ -83,11 +62,11 @@
       </p>
     </div>
 
-    <div class="ingredients-list">
+    <div class="ingredients_list">
       <div>
-        <ul class="ingredients-listing">
+        <ul class="ingredients_listing">
           <a href="">
-            <img src="../images/copy.png" alt="copy" id="ingredients-copy" />
+            <img src="../images/copy.png" alt="copy" id="ingredients_copy" />
           </a>
           <% products.forEach(p => { %>
             <li><%= p.ProductName %></li>
@@ -98,39 +77,39 @@
     </div>
 
     <footer>
-      <div class="footer-box">
-        <h2 class="footer-headline">Food App</h2>
-        <p id="footer-info">
+      <div class="footer_box">
+        <h2 class="footer_headline">Food App</h2>
+        <p id="footer_info">
           My aim is to develop websites and learn backend skills. My passion is
           developing AI tools. Let's develop new afficent programs.
         </p>
       </div>
-      <div class="footer-box" id="footer-navigation">
-        <h3 class="footer-headline">Navigaton</h3>
-        <a href="#home" class="footer-links">Home</a>
-        <a href="#about" class="footer-links">About</a>
-        <a href="#skills" class="footer-links">Skills</a>
-        <a href="#work" class="footer-links">Work</a>
-        <a href="#contact" class="footer-links">Contact</a>
+      <div class="footer_box" id="footer_navigation">
+        <h3 class="footer_headline">Navigaton</h3>
+        <a href="#home" class="footer_links">Home</a>
+        <a href="#about" class="footer_links">About</a>
+        <a href="#skills" class="footer_links">Skills</a>
+        <a href="#work" class="footer_links">Work</a>
+        <a href="#contact" class="footer_links">Contact</a>
       </div>
-      <div class="footer-box">
-        <h3 class="footer-headline">Contact Me</h3>
-        <p class="footer-contact">
-          <img class="footer-icon-text" src="icons/mail.png" alt="email" />
+      <div class="footer_box">
+        <h3 class="footer_headline">Contact Me</h3>
+        <p class="footer_contact">
+          <img class="footer_icon_text" src="icons/mail.png" alt="email" />
           samuel.hollman@hotmail.com
         </p>
-        <p class="footer-contact">
-          <img class="footer-icon-text" src="icons/phone.png" alt="phone" />
+        <p class="footer_contact">
+          <img class="footer_icon_text" src="icons/phone.png" alt="phone" />
           +358406797988
         </p>
-        <a href="https://github.com/SamuelhaIIman" class="footer-icon-link">
-          <img class="footer-icon" src="icons/github.png" alt="github" />
+        <a href="https://github.com/SamuelhaIIman" class="footer_icon_link">
+          <img class="footer_icon" src="icons/github.png" alt="github" />
         </a>
         <a
-          href="https://www.linkedin.com/in/samuel-h%C3%A5llman-131217266/"
-          class="footer-icon-link"
+          href="https://www.linkedin.com/in/samuel_h%C3%A5llman_131217266/"
+          class="footer_icon_link"
         >
-          <img class="footer-icon" src="icons/linkedin.png" alt="github" />
+          <img class="footer_icon" src="icons/linkedin.png" alt="github" />
         </a>
       </div>
     </footer>

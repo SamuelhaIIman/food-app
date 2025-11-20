@@ -39,7 +39,7 @@ nav {
 }
 
 /* BUDGET */
-.budget-container {
+.budget_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,14 +54,14 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
-#budget-slider {
+#budget_slider {
     width: 200px;
 }
-#budget-money-per-day {
+#budget_money-per-day {
     font-size: 28px;
     color: #04AA6D;
 }
-#budget-money-amount {
+#budget_money_amount {
     background-color: #04AA6D;
     border-radius: 5px;
     width: 200px;
@@ -154,44 +154,44 @@ input[type=number] {
 } */
 
 /*MEALS*/
-.meal-options {
+.meal_options {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     margin-bottom: 25px;
 }
-.meal-images {
+.meal_images {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     border: 5px solid #04AA6D;
 }
-.meal-description {
+.meal_description {
     width: 220px;
 }
-#meal-add-button {
+#meal_add_button {
     background-color: #04AA6D;
     border: none;
     border-radius: 10px;
     font-size: 24px;
 }
-#meal-add-button:hover {
+#meal_add_button:hover {
     background-color: #049862;
     cursor: pointer;
 }
-#ingredients-copy {
+#ingredients_copy {
     width: 50px;
     float: right;
 }
 
 /* MEALS */
-.ingredients-list {
+.ingredients_list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ingredients-listing {
+.ingredients_listing {
     background-color: #04AA6D;
     border-radius: 10px;
 }
@@ -205,14 +205,14 @@ footer {
     justify-content: center;
     z-index: -1;
 }
-.footer-box {
+.footer_box {
     width: 260px;
 }
-#footer-navigation {
+#footer_navigation {
     position: relative;
     left: 80px;
 }
-.footer-links {
+.footer_links {
     text-decoration: none;
     font-size: 20px;
     color: #888888;
@@ -222,29 +222,29 @@ footer {
     width: 65px;
     margin-top: 5px;
 }
-.footer-links:hover {
+.footer_links:hover {
     color: #04AA6D;
 }
-#footer-info {
+#footer_info {
     color: #888888;
 }
-.footer-headline {
+.footer_headline {
     color: #ddd;
     margin: 10px 0px 0px 0px;
 }
-.footer-contact {
+.footer_contact {
     color: #888888;
     position: relative;
 }
-.footer-icon {
+.footer_icon {
     width: 50px;
     margin: 10px;
     position: relative;
 }
-.footer-icon-link {
+.footer_icon_link {
     text-decoration: none;
 }
-.footer-icon-text {
+.footer_icon_text {
     width: 25px;
     color: #ddd;
     position: relative;
