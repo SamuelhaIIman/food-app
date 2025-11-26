@@ -48,6 +48,12 @@ DB_PASSWORD=your_mysql_password
 DB_NAME=your_database_name
 ```
 
+### Run the program
+
+```bash
+node .\server.js
+```
+
 ---
 
 ## Features
