@@ -17,4 +17,8 @@ budgetUI.slider.addEventListener("input", () => {
   budgetUI.budget.innerHTML = budgetDayCalculation.toFixed(2);
 });
 
+const budgetTest = {
+  budgetTest: document.getElementById("budget_money"),
+}
+budgetTest.budgetTest.innerHTML = "14";
 
